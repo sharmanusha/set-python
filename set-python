@@ -1,0 +1,32 @@
+#set: unorderd and unindexed collection of elements enclosed with{}
+# duplicates are not allowed in set
+
+s1={1,"ruchi","ruchi",1}
+print(s1)
+
+#set operations
+
+#adding a new elements
+s1.add("hello world")
+print(s1)
+s1.add("anusha")
+print(s1)
+
+#updating multiple elements
+s1.update(["abc","abdul",3.14])
+print(s1)
+
+#removing an element
+s1.remove(3.14)
+print(s1)
+
+#set functions
+#union of two sets (concatenation)
+s1={1,2,3}
+s2={'a','b','c'}
+print(s1.union(s2))
+
+#intersection of two sets (common elements)
+s1={1,2,3,4,5}
+s2={3,4,5,6,7}
+print(s1.intersection(s2))
